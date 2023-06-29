@@ -3,7 +3,7 @@ function swapTheme(){
 	const app=document.getElementById("app");
 	const swap=document.getElementById("swap");
 
-	if(app.classList.contains("day"))
+	if(app.classList.value === "day")
 	{
 		app.classList.remove("day");
 		app.classList.add("night");
